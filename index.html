@@ -1,99 +1,120 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <title>GrabWork</title>
-	
-    <style>
-           li{
-               display: block;
-                float: right;
-                padding-right: 35px;   
-           } 
-           .footer{
-        display: block;
-        background-color:#ebfaf7;
-        font-size: 20px;   
-    }
-    .para{
-        padding-top: 0px;
-        padding-left: 500px;
-        display: inline;
-        background-color:#ebfaf7;
-        font-size: 20px;
-    }
-    .li{
-        text-decoration: none;
-    }
-    .footer-links{
-        text-decoration: none;
-        padding-top: 50px;
-        font-size: 20px;
-        padding-right: 0px;
-    }
-    .footer-links1{
-        
-        padding-left: 50px;
-        text-decoration: none;
-        padding-top: 0px;
-        font-size: 20px;
-        padding-right: 0px;
-       padding-top: 30px;
-    }
-    </style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-    <body >
-			<header>
-                <section style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       ">
-                    <ul style=" list-style-type: none;">
-                        <a href="index.html" style="text-decoration:none">GrabWork</a>
-                        <li style="display:block;float:right; padding-right: 35px;"><a href="/" style="text-decoration:none">Register</a></li>
-		                <li style="display:block"><a href="/" style="text-decoration:none">Login</a></li>
-		              
-		            </ul>
-                </section> 
-        	</header>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <footer>
-                <section class="footer"> 
-                    <ul>
-                        <br>
-                    
-                    <li><a href="/" class="footer-links1">Blogs</a></li>
-                    <li><a href="/" class="footer-links1">Contact Us</a></li>
-                    <li><a href="company.html" class="footer-links1">Company</a></li>
-                    <br>
-                        </br>
-                       
-                    </ul>
-                    <p class="para">© All copyrights reserved</p>
-                </section>
-          
-            </footer>
-	</body>
-</html>
+<style>
+    /* header */
+    .header{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	    overflow: hidden;
+        margin-top:10px;
+        border-radius:8px;
+        padding: 20px 8%;
+        text-decoration: none;
+    }
+    .header a.logo{
+        font-size: 50px;
+        color:black;
+    }
+    
+    .header a.logo:hover{
+        font-size: 52px;
+        color:#c5b9f0;
+    }    
+    .header-right{
+	float: right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    font-size: 30px;
+    text-decoration: none;
+    padding-right: 30px;
+    }
+    .header-right a.nav-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow: hidden;
+        padding-left: 50px;
+        border-radius:8px;
+        text-decoration: none;
+    }
+    .header-right a.nav-menu:hover{
+        font-size: 31px;
+        color: palevioletred;
+    }
+    /*header end*/
+    /*footer*/    
+    .footer {
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        background: black;
+        border-radius: 5px;
+        opacity: 0.9;
+        color: white;
+        font-size: 20px;
+        height: 120px;
+    }
+    .links{
+        padding-top:35px;
+    }
+    .links a.footer-links{
+        padding-left: 40px;
+        color:white;
+        font-size: 30px;
+    }
+    .links a.footer-links:hover{
+        background-color: white;
+        color: black;
+        border-radius:5px;
+    }
+    /*footer end*/
+    /* body */
+    
+    .section-1{
+        padding-left: 47%;;
+        color: #965917;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+    }
+    .section-1 form{
+        padding-left: 40%;
+    }
+    .section-1 button{
+        font-size: 30px;
+        
+        background-color: white;
+        border-color: white;
+        border-radius: 5px;
+    }
+    .section-1 button:hover{
+        transition: 0.6s;
+        background-color: #91e3cf;
+    }
+</style>    
+<body>
+    <div class="header">
+        <a href="index.html" style="text-decoration: none;" class="logo">Grab<span style="color:rgb(147, 241, 229);">Work</span></a>
+        <div class="header-right">
+            <a  href="login.html" class="nav-menu" style="text-decoration: none;">Login</a>
+            <a  href="register.html" class="nav-menu"  style="text-decoration: none;">Register</a>
+        </div>
+    </div>
+    <!--  Sections-->
+    <div class="section-1">
+        Get connected to the world of opprtunities.
+        <br><br>
+        <form class="form" action="register.html">
+            <button class="button" type="submit">Join Now</button>
+        </form>
+    </div>
+    <!--Footer-->
+    <br><br>
+    <div class="footer">
+        <div class="links">
+            <a href="about.html" class="footer-links"style="text-decoration: none;">About</a>
+            <a href="blog.html" class="footer-links"style="text-decoration: none;">Blogs</a>
+            <a href="company.html" class="footer-links" style="text-decoration: none;">Company</a>
+        </div>
+        <p>© GrabWork - 2021</p>
+    </div>
+</body>
