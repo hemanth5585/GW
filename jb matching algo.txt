@@ -1,0 +1,8 @@
+Job matching algorithms links
+https://www.jobspikr.com/blog/job-matching-algorithms/#:~:text=Job%20Matching%20Algorithms%20has%20helped,end%20in%20rejections%20and%20disappointment.
+https://skillate.com/blog/how-does-ml-based-job-resume-matching-algorithm-work-2/
+https://amazinghiring.com/announcing-ai-powered-automated-sourcing/
+
+https://devdocs.magento.com/guides/v2.4/inventory/source-selection-algorithms.html
+
+https://www.welcometothejungle.com/en/articles/what-if-your-recruiter-were-an-algorithm
