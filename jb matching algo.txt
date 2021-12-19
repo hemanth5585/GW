@@ -6,3 +6,30 @@ https://amazinghiring.com/announcing-ai-powered-automated-sourcing/
 https://devdocs.magento.com/guides/v2.4/inventory/source-selection-algorithms.html
 
 https://www.welcometothejungle.com/en/articles/what-if-your-recruiter-were-an-algorithm
+
+Questions to be answered?
+What issues are you trying to solve with a new recruiting tool?
+What are the bottlenecks you’d like to remove?
+What features do you lack in your current solutions?
+
+Experience
+Industry
+Years of Experience
+Title or Designations on three layers - based on title, role, and role category.
+Seniority Level Matching.
+Example: CTO of a 25 members company and having five years of experience doesn't mean he is qualified for VP Technology in any Multinational Companies.
+
+Education
+College Relevance - according to the requirement mentioned in the job description else, no biases in college preference.
+Degree
+Major - which is closely related to the job skills requirements.
+Skills
+Functional Skills Example: JAVA, Enterprise Sales, Invoice Processing, etc.
+Behavioral Skills Example: Critical Thinking, Communication Skills, etc.
+Recent Candidate Skills
+
+Insignhts:
+--> Match key words for a break through
+Milos Stanojevic, Tech Recruiter  [Source Quora]
+Small companies should aim for simplicity and user-friendly software. Their needs usually don’t require an indefinite 
+amount of features or complexity, on the contrary. Many Applicant Tracking Systems might be too (unnecessarily) complicated.
