@@ -33,3 +33,17 @@ Insignhts:
 Milos Stanojevic, Tech Recruiter  [Source Quora]
 Small companies should aim for simplicity and user-friendly software. Their needs usually don’t require an indefinite 
 amount of features or complexity, on the contrary. Many Applicant Tracking Systems might be too (unnecessarily) complicated.
+
+
+List of API's to be used and to be learnt [optional]:
+Mobile number verification API: - To verify users mobile
+Emailing API: to verify users email and communication between recruiter and candidate
+Meeting scheduling API: To schedule meeting for interviews [Optional]
+**
+Emailing API:
+Email API can process up to ten of the following requests per second:
+create email lists;
+add an email template;
+send an email campaign;
+retrieve statistics
+Calendar and meeting scheduling API
