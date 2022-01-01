@@ -1,0 +1,144 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form action="register.jsp" method="post">
+	First Name <input type="text" name="fname" value="fname">
+	Last Name <input type="text" name="lname" value="lname">
+	Email ID: <input type="email" name="email" value="email">
+	Password: <input type="password" name="pwd" value="pwd">
+	Repeat Password: <input type="password" name="rpwd" value="rpwd">
+	<input type="submit" value="Register">
+	</form>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GrabWork - Register</title>
+		<script>
+		function fun()
+		{
+			var name = document.forms["signupform"]["uname"].value;
+			var fullname = document.forms["signupform"]["fname"].value;
+			var letters = /^[A-Za-z]+$/;
+			if(name.match(letters) && fullname.match(letters))
+			{
+				var pswd = document.forms["signupform"]["pwd"].value;
+				var rpswd = document.forms["signupform"]["rpwd"].value;
+				if(pswd.length > 6)
+					{
+						if(pswd==rpswd)
+						{
+							return true;
+						}
+						else
+							{
+								alert("Password confirmantion failed");
+								return false;
+							}
+					}
+				else
+					{
+						alert("Password msut be more than 6 characters");
+						return false;
+					}
+				
+				return true;
+			}
+			else
+			{
+				alert("Invalid First Name or Last Name");
+				return false;
+			}
+		}
+		</script>
+		<style>
+			/* header */
+			.header{
+				font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				overflow: hidden;
+				margin-top:10px;
+				border-radius:8px;
+				padding: 20px 8%;
+				text-decoration: none;
+			}
+			.header a.logo{
+				font-size: 40px;
+				color:black;
+			}
+			
+			.header a.logo:hover{
+				font-size: 42px;
+				color:#c5b9f0;
+			}    
+			.header-right{
+			float: right;
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			overflow: hidden;
+			font-size: 20px;
+			text-decoration: none;
+			padding-right: 30px;
+			}
+			.header-right a.nav-menu{
+				font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				overflow: hidden;
+				padding-left: 50px;
+				border-radius:8px;
+				text-decoration: none;
+			}
+			.header-right a.nav-menu:hover{
+				font-size: 22px;
+				color: palevioletred;
+			}
+			.header-right a.nav-menu{
+				font-size: 22px;
+				color: palevioletred;
+			}
+			.header-right a.nav-menu-active{
+				font-size: 22px;
+				background-color: yellow;
+				padding: 10px 10px;
+				border-radius: 30px;
+				color: palevioletred;
+			}
+			.header-right a.nav-menu-active:hover{
+				font-size: 27px;
+				background-color: yellow;
+				color:rgb(108, 250, 132);
+				padding: 15px 15px;
+				border-radius: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html" style="text-decoration: none;" class="logo">Grab<span style="color:rgb(147, 241, 229);">Work</span></a>
+			<div class="header-right">
+				<a  href="login.html" class="nav-menu" style="text-decoration: none;">Login</a>
+				<a  href="register.html" class="nav-menu"  style="text-decoration: none;">Register</a>
+			</div>
+			<div>
+			<h1>Register</h1>
+	<form action="register.jsp" method="post" class="form"  name="signupform" onsubmit="return fun()">
+	First Name <input type="text" name="uname" value="">
+	<br>
+	Last Name <input type="text" name="fname" value="">
+	<br>
+	Email ID: <input type="email" name="email" value="">
+	<br>
+	Password: <input type="password" name="pwd" value="">
+	<br>
+	Repeat Password: <input type="password" name="rpwd" value="">
+	<br>
+	<input type="submit" value="Register">
+	</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,144 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<form action="login.jsp" method="post">
+		Email  <input type="email" name="email" placeholder="Email" required><br>
+		Password <input type="password" name="pwd" placeholder="Password" required><br>
+		<br>
+	<input type="submit" VALUE="LOGIN"/>
+	</form>
+	
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/* header */
+			.header{
+				font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				overflow: hidden;
+				margin-top:10px;
+				border-radius:8px;
+				padding: 20px 8%;
+				text-decoration: none;
+			}
+			.header a.logo{
+				font-size: 40px;
+				color:black;
+			}
+			
+			.header a.logo:hover{
+				font-size: 42px;
+				color:#c5b9f0;
+			}    
+			.header-right{
+			float: right;
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			overflow: hidden;
+			font-size: 20px;
+			text-decoration: none;
+			padding-right: 30px;
+			}
+			.header-right a.nav-menu{
+				font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				overflow: hidden;
+				padding-left: 50px;
+				border-radius:8px;
+				text-decoration: none;
+			}
+			.header-right a.nav-menu:hover{
+				font-size: 27px;
+				color:rgb(108, 250, 132);
+			}
+			.header-right a.nav-menu{
+				font-size: 22px;
+				color: palevioletred;
+			}
+			.header-right a.nav-menu-active{
+				font-size: 22px;
+				background-color: yellow;
+				padding: 10px 10px;
+				border-radius: 30px;
+				color: palevioletred;
+			}
+			.header-right a.nav-menu-active:hover{
+				font-size: 27px;
+				background-color: yellow;
+				color:rgb(108, 250, 132);
+				padding: 15px 15px;
+				border-radius: 20px;
+			}
+			.box{
+				width: 300px;
+				padding: 40px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				opacity: 0.8;
+				transform: translate(-50%,-50%);
+				background: #9fd3f5;
+				border-radius: 15px;
+				text-align: center;
+			}
+			.box h1{
+			color: black;
+			text-transform: uppercase;
+			font-weight: 500;
+			}
+			.box input[type="text"], input[type="password"]{
+				color:#191919;
+				padding: 14px 40px;
+				border-radius: 30px;
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			}
+			.box input[type="submit"]{
+				color:chocolate;
+				border-radius: 30px;
+				padding: 14px 40px;
+			}
+			.box p{
+				size:15px;
+				font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
+			.box a{
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+			.box a:hover{
+				padding: 5px 7px;
+				border-radius: 5px;
+				background-color: #ffe375;
+				color:black;
+			}
+			.box input[type="submit"]:hover{
+				background-color: #ffe375;
+				color:black;
+				border-radius: 30px;
+				padding: 14px 40px;
+			}
+
+		</style>
+		<title>GrabWork - Login</title>
+	</head>
+	<body>
+		
+		<div class="header">
+			<a href="index.html" style="text-decoration: none;" class="logo">Grab<span style="color:rgb(147, 241, 229);">Work</span></a>
+			<div class="header-right">
+				<a  href="login.html" class="nav-menu-active" style="text-decoration: none;">Login</a>
+				<a  href="register.html" class="nav-menu"  style="text-decoration: none;">Register</a>
+			</div>
+		</div>
+		<form class="box" action="login.jsp" method="post">
+			<h1>Login</h1>
+			<input type="text" name="" placeholder="Email">
+			<input type="password" name="" placeholder="Password">
+			<input type="submit" name="" value="Login">
+			<p>Do not have an account? Then create one</p> 
+				<a class="button1" href="register.html">SignUp</a>
+		  </form>
+	</body>
+</html>
