@@ -1,3 +1,20 @@
+3 modules:
+Admin:   Manages faculty, Add students, Add classes.
+Faculty:  Create quiz, Delete Quiz, Get Result.
+Student:  Attempt Quiz
+
+In detail Modules.
+Admin -> Add/ Remove  students in sections, Add/ Remove faculty. Assign faculty
+Faculty  -> 
+Create quiz: Add questions, Options, Set answer.
+See the result
+Set deadlines.
+Student - >
+Attempt quiz
+Download Marksheet
+Download Keysheet.
+
+
 Job matching algorithms links
 https://www.jobspikr.com/blog/job-matching-algorithms/#:~:text=Job%20Matching%20Algorithms%20has%20helped,end%20in%20rejections%20and%20disappointment.
 https://skillate.com/blog/how-does-ml-based-job-resume-matching-algorithm-work-2/
